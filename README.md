@@ -2,6 +2,10 @@
 
 Learning JavaScript by doing!
 
+## Links
+
+- [Slides](https://docs.google.com/presentation/d/1Fc7YYr7VgFPQ9UvF3m5Ufxvi929BIOYqgbWvJPHmgUE)
+
 ## References
 
 - [Mozilla Developer Network - JavaScript](https://developer.mozilla.org/bm/docs/Web/JavaScript)
