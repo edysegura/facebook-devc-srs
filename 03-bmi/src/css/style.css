@@ -1,0 +1,124 @@
+/**
+ * CSS Document
+ */
+
+html {
+    background: #7F796C;
+    font: 13px Arial;
+}
+
+.container {
+    border: 4px solid #666;
+    width: 600px;
+    margin: 50px auto;
+    min-height: 200px;
+    overflow: hidden;
+}
+
+legend,
+.label {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+    line-height: 48px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+fieldset {
+    border: none;
+    padding: 0;
+}
+
+.container,
+label,
+table {	
+    background: -moz-linear-gradient(top,  #F7F7F7 0%, #E5E5E5 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#F7F7F7), color-stop(100%,#E5E5E5));
+    background: -webkit-linear-gradient(top,  #F7F7F7 0%,#E5E5E5 100%);
+    background: -o-linear-gradient(top, #F7F7F7 0%,#E5E5E5 100%);
+    background: -ms-linear-gradient(top, #F7F7F7 0%,#E5E5E5 100%);
+    background: linear-gradient(top bottom, #F7F7F7 0%,#E5E5E5 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#F7F7F7', endColorstr='#E5E5E5',GradientType=0 ); /* IE6-9 */
+    padding: 10px;
+    border: 1px solid #B4B4B4;
+    border-radius: 10px;
+}
+
+label {
+    color: #333;
+    display: block;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: right;
+    margin-bottom: 20px;
+}
+
+input {
+    border: 1px solid #CCC;
+    border-radius: 5px;
+    padding: 5px;
+    width: 185px;
+}
+
+button, 
+.result {
+    border-radius: 10px;
+}
+
+button {
+    -moz-transition: background 1s ease 0s;
+    -webkit-transition: background 1s ease 0s;
+    transition: background 1s ease 0s;
+    background: #efaf37;
+    border-radius: 8px;
+    cursor: pointer;
+    display: block;
+    padding: 8px 25px;
+    border: 1px solid #BEA280;
+    color: #fff;
+    font-weight: bold;
+    margin: 0 auto;
+    outline: none;
+}
+
+button:hover {
+    background: #ef8a32;
+}
+
+.unit {
+    float: left;
+    padding: 7px;
+    width: 47%;
+}
+
+table {
+    margin: 55px 0 0 10px;
+}
+
+table th {
+    text-align: left;
+}
+
+table td {
+    line-height: 20px;
+}
+
+tbody tr:nth-child(even) { background: #F7F7F7 }
+tbody tr:nth-child(odd) { background: #E5E5E5 }
+
+.content-result {
+    clear: both;
+    text-align: center;
+}
+
+.content-result .result {
+    width: 70px;
+    background: #F2F4F6;
+    display: block;
+    font-size: 24px;
+    color: #EFAF37;	
+    padding: 12px 15px;
+    margin: 0 auto;
+    box-shadow: 3px 3px 4px 0 #CCC;
+}

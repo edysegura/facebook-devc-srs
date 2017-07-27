@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Body Mass Index</title>
+</head>
+<body>
+
+<section class="container">
+    <div class="unit content-result">
+        <form class="form">
+            <fieldset>
+                <legend>BMI Calculator</legend>
+                <label>
+                    Weight
+                    <input id="weight" type="text" placeholder="75" required="required" />
+                </label>
+                <label>
+                    Height
+                    <input id="height" type="text" placeholder="Ex: 1.71" required="required" />
+                </label>
+                <button>Calculate</button>
+            </fieldset>
+        </form>
+
+        <div class="content-result">
+            <span class="label">BMI Result</span>
+            <span class="result">0.00</span>
+        </div>
+    </div>
+
+    <table class="unit">
+        <thead>
+            <tr>
+                <th>Weight Categories</th>
+                <th>BMI</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Underweight</td>
+                <td>&lt; 18,5</td>
+            </tr>
+            <tr>
+                <td>Healthy Weight</td>
+                <td>18,5 - 24,9</td>
+            </tr>
+            <tr>
+                <td>Overweight</td>
+                <td>25 - 29,9</td>
+            </tr>
+            <tr>
+                <td>Obese</td>
+                <td>30 - 34,9</td>
+            </tr>
+            <tr>
+                <td>Severely Obese</td>
+                <td>35 - 39,9</td>
+            </tr>
+            <tr>
+                <td>Morbidly Obese</td>
+                <td>&gt;= 40</td>
+            </tr>
+        </tbody>
+    </table>
+</section>
+
+</body>
+</html>
